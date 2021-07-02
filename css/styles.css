@@ -1,7 +1,9 @@
 
 :root {
-  --primary-color: #25648F;
-  --secondary-color: #ebbd34;
+  --primary-color: #25648F;   /*blue*/
+  --secondary-color: #0C4B76; /*dark blue*/
+  --background-color: #e8eaff;/*light blue*/
+  --darker-background: #CFD1E6;
   --dark-grey: #2b2b2b;
   --font-weight-headings: 700;
   --font-weight-body: 300;
@@ -45,6 +47,10 @@ a:active {
 
 :any-link {
   color: var(--secondary-color);
+}
+
+body {
+  background-color: var(--background-color);
 }
 
 .profile__portrait {
@@ -113,7 +119,7 @@ a:active {
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: var(--darker-background);
 }
 
 .about-page-body {
@@ -155,9 +161,9 @@ button, .button {
   display: inline-block;
 
   font-family: inherit;
-  
-  background-color: var(--primary-color);
   color: white;
+  
+  background-color: var(--darker-background);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -186,9 +192,7 @@ button:focus,
   text-align: center;
 }
 
-.contact-details {
-  text-decoration: none;
-}
+
 
 
 @keyframes color-change {
