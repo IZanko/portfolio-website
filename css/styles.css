@@ -62,6 +62,12 @@ a:active {
   align-items: center;
 }
 
+.social-media {
+  width: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .profile {
   max-width: 700px;
   margin: 0 auto;
