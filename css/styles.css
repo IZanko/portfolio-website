@@ -180,6 +180,10 @@ button:focus,
   text-align: center;
 }
 
+.contact-details {
+  text-decoration: none;
+}
+
 
 @keyframes color-change {
   0% {
