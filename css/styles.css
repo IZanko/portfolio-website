@@ -161,7 +161,7 @@ button, .button {
   display: inline-block;
 
   font-family: inherit;
-  color: white;
+  color: var(--secondary-color);
   
   background-color: var(--darker-background);
   text-decoration: none;
@@ -186,7 +186,7 @@ button:focus,
   text-align: center;
 }
 
-.contact-page-body {
+.contact--page-body {
   display: flex;
   flex-direction: column;
   text-align: center;
