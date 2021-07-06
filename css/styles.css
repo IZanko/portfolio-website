@@ -186,7 +186,7 @@ button:focus,
   text-align: center;
 }
 
-.contact--page-body {
+#contact-body {
   display: flex;
   flex-direction: column;
   text-align: center;
