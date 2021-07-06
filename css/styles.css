@@ -246,6 +246,14 @@ button:focus,
   .grid {
     grid-template-columns: 1fr;
   }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile__portrait {
+    align-self: center;
+  }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
