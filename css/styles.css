@@ -286,6 +286,10 @@ button:focus,
   .profile__portrait {
     align-self: center;
   }
+    .contact-details {
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 5px;
+  }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
